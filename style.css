@@ -1,0 +1,144 @@
+.nav{
+    position: sticky;
+}
+
+.list{
+    display: flex;
+    padding: 30px;
+    padding-left: 30rem;
+}
+
+a:link{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.logo{
+    padding: 15px;
+    padding-left: 1rem;
+}
+
+.icon{
+    padding: 2rem;
+}
+
+.fa{
+    padding-right: 2rem;
+}
+
+#Home{
+    background-image: url('img/back.jpg');
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+    background-position: top center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container span{
+    color: orange;
+}
+
+.brands{
+    padding: 2rem;
+    padding-left: 4rem;
+}
+
+.cards{
+    display: flex;
+    padding: 0;
+}
+
+.card1{
+    padding: 3.7rem;
+    background-image: url(img/new/1.jpg);
+    height: 25rem;
+    width: 33%;
+    background-size: cover;
+    background-position: center;
+}
+.card2{
+    
+    padding: 3.7rem;
+    background-image: url(img/new/5.jpg);
+    height: 25rem;
+    width: 33%;
+    background-size: cover;
+    background-position: center;
+}
+.card3{
+    
+    padding: 3.7rem;
+    background-image: url(img/watches/3.jpg);
+    height: 25rem;
+    width: 33%;
+    background-size: cover;
+    background-position: center;
+}
+
+.content{
+    padding-top: 6rem;
+}
+
+.content button{
+    border: none;
+    text-decoration: underline;
+    background: none;
+    text-transform: uppercase;
+    padding-top: 1.5rem;
+}
+
+.container2{
+    padding: 4rem;
+    text-align: center;
+    padding-left: 5rem;
+}
+
+.container3{
+    gap: 2.3rem;
+}
+
+
+#banner{
+    background-image: url('img/banner/2.jpg');
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+    background-position: top 70px center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: flex-start;
+    color: aliceblue;
+}
+
+#banner button{
+    background-color: orange;
+    border: none;
+    padding: 8px;
+    color: white;
+}
+
+footer{
+    background-color: rgb(32, 30, 30);
+    color: azure;
+}
+
+footer li{ 
+    
+    padding-bottom: 4px;
+}
+
+footer li a{
+    color: aliceblue;
+}
+
+.btn{
+    padding: 5px;
+}
